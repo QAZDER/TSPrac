@@ -37,3 +37,7 @@ function copyFields<T extends U, U>(target: T, source: U): T {
 
 const x = { a: 1, b: 2, c: 3 };
 copyFields(x, { b: 10, c: 20 });
+
+interface SearchFunc {
+
+}
